@@ -6,7 +6,7 @@ parent: Data Collection
 
 # Data Collection Requirements for SAP Cluster Debug & RCA
 
-<img width="997" src="https://raw.githubusercontent.com/rfparedes/suse-premium-docs/main/assets/images/lines.png">
+<img width="997" src="https://raw.githubusercontent.com/suse/premium-support/main/assets/images/lines.png">
 
 ## Steps in Collecting Data
 

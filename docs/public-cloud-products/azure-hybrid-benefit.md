@@ -1,24 +1,23 @@
 ---
 layout: default
-title: Public Cloud Product Support
+title: Azure Hybrid Benefit
+parent: Publc Cloud Products
 ---
 
-# Public Cloud Product Support
+# Azure Hybrid Benefit
 
 {: .no_toc }
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
+## Table of contents
+
+{: .no_toc .text-delta }
+
 1. TOC
 {:toc}
-</details>
 
 ---
 
-## Azure Hybrid Benefit
+## About
 
 Azure Hybrid Benefit (AHB) allows customers to convert between PAYG and BYOS Virtual Machines in Microsoft Azure.
 

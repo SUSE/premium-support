@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Public Cloud Products
+has_children: true
 ---
 
 # Public Cloud Products

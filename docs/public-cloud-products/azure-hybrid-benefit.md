@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Azure Hybrid Benefit
-parent: Publc Cloud Product Support
+parent: Publc Cloud Products
 ---
 
 # Azure Hybrid Benefit

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Public Cloud Product Support
+title: Public Cloud Products
 ---
 
-# Public Cloud Product Support
+# Public Cloud Products
 
 {: .no_toc }
 

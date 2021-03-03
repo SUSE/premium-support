@@ -12,7 +12,7 @@ parent: Data Collection
 
 1. Run the following command on the affected server, replacing <casenum> with your case number:
 
-   `supportconfig -l -r <casenum>`
+   `supportconfig -r <casenum>`
 
    This will take some minutes and when complete will show “Log file tar ball” location.  
 

@@ -23,3 +23,5 @@ Ensure business continuity
 ![Meet](https://www.suse.com/assets/img/company/about-new/premium3.png)
  <br /> 
 Meet changing business demands while reducing costs
+ <br /><br /> 
+[More information about Premium Support Services](https://www.suse.com/services/premium/)

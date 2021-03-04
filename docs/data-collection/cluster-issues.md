@@ -32,6 +32,10 @@ parent: Data Collection
    - Were changes made prior to the problem occurring? If so, what (installation of products, service packs, network changes, and so forth, for example)?
    - What is the current state of the cluster?
 
+5. Optional (or by request), provide pengine files. Run the following on each node:
+
+   `tar cvfJ `hostname`.pengine.tar.xz /var/lib/pacemaker/pengine/`
+
 ## Data to be Provided
 
 - supportconfig tarball from first node

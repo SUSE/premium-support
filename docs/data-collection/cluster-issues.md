@@ -34,7 +34,7 @@ parent: Data Collection
 
 5. Optional (or by request), provide pengine files. Run the following on each node:
 
-   `tar cvfJ `hostname`-<casenum>.pengine.tar.xz /var/lib/pacemaker/pengine/`
+   `tar cvfJ ``hostname``-<casenum>.pengine.tar.xz /var/lib/pacemaker/pengine/`
 
 ## Data to be Provided
 

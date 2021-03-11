@@ -6,7 +6,7 @@ parent: Data Collection
 
 # Granular Data Collection
 
-There are situations that require granular data from the time of the issue to troubleshoot OS ssues. gdg (Granular Data Gatherer) is a tool which collects granular data every user specified interval (default: 30 seconds).  More documentation about which data is collected and further information can be found here: [1]
+There are situations that require granular data from the time of the issue to troubleshoot OS issues. gdg (Granular Data Gatherer) is a tool which collects granular data every user specified interval (default: 30 seconds).  More documentation about which data is collected and further information can be found here: [1]
 
 Install gdg (Granular Data Gatherer) and enable.
 

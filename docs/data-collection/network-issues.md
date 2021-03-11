@@ -10,23 +10,20 @@ An unexpected service outage happens. No relevant logs can be found within the O
 
 Collect network state information directly from the kernel on an ongoing basis.  This can be used to prove that service issues started after an external network failure.
 
-From the command line, create a systemd service unit configuration:
+Install gdg (Granular Data Gatherer) [1] and enable rtmon.
 
-```bash
-echo '[Unit]
-Description="RTNetlink Monitor Daemon"
+1. Download the binary from Releases (<https://github.com/rfparedes/gdg/releases/latest/download/gdg>) to /usr/local/sbin on the server and run:
 
-[Service]
-ExecStart=/usr/sbin/rtmon file /var/log/rtmon.log
+    `sudo chmod +x /usr/local/sbin/gdg`
 
-[Install]
-WantedBy=network.target' > /etc/systemd/system/rtmon.service
-```
+2. Toggle rtmon logging on
 
-Then enable and start the rtmon.service:
-`systemctl enable rtmon --now`
+    `sudo /usr/local/sbin/gdg -rtmon`
 
- The logfile is a binary so to view the output of the logfile, run:
- `ip monitor file /var/log/rtmon.log`
+3. Once collection has been ongoing, to view network state information:
 
- Also see TID, <https://www.suse.com/support/kb/doc/?id=000019863>
+    `ip monitor file /var/log/gdg-data/rtmon/rtmon.log`
+
+For documentation and further options [1].
+
+[1] <https://github.com/rfparedes/gdg>

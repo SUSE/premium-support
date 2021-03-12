@@ -2,6 +2,7 @@
 layout: default
 title: Repo Helper
 parent: Public Cloud Update Infrastructure
+nav_order: 4
 ---
 
 # SUSE PAYG Repository Setup Helper

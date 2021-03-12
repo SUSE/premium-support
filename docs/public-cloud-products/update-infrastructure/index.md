@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Update Infrastructure
+title: Public Cloud Update Infrastructure
 has_children: true
 parent: Public Cloud Products
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Repo Helper
-parent: Update Infrastructure
+parent: Public Cloud Update Infrastructure
 ---
 
 # SUSE PAYG Repository Setup Helper

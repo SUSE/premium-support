@@ -68,12 +68,12 @@
           <p>Update Servers provide the actual software repositories for SUSE Linux Enterprise PAYG instances. At least three update servers serve a given region per cloud provider. They are a mandatory part of the infrastructure.</p>
           <h3 class="mt-2 mb-2"><u>How</u></h3>
           <p>1. Open HTTPS TCP Port 443 to the following update server IPs:</p>
-          <div id="rmt-servers"></div>
+          <div class="rmt-servers"></div>
           <br>
           <p>2. On the instance, open the file <mark>/etc/regionserverclnt.cfg.</mark> and look for <mark>httpsOnly = true</mark>.<br>
           If <mark>httpsOnly = true</mark>, then you are finished with this step.<br><br>
           If <mark>httpsOnly = true</mark> is missing or <mark>httpsOnly = false</mark> then open HTTP TCP Port 80 to the following update server IPs:</p>
-          <div id="rmt-servers-2"></div>
+          <div class="rmt-servers"></div>
           <h3 class="mt-4 mb-2"><u>Learn More But Not Required</u></h3>
           <p>Once an instance has the update server IP addresses, it will communicate with all of the update servers to see which responds first.
              The update server that responds first is selected, and a host record is added to /etc/hosts, resolving smt-&lt;PROVIDER&gt;.susecloud.net to the selected update server’s IP address.

@@ -10,7 +10,7 @@ There are situations where further data is needed to show how close or over the 
 
 Install hanacall-timer and enable.
 
-1. Download the binary from Releases (<https://github.com/rfparedes/hanacall-timer/releases/latest/download/gdg>) to /usr/local/bin on the server and run:
+1. Download the binary from Releases (<https://github.com/rfparedes/hanacall-timer/releases/latest/download/hanacall-timer>) to /usr/local/bin on the server and run:
 
     `sudo chmod +x /usr/local/bin/hanacall-timer`
 

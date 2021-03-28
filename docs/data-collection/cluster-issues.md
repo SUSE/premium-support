@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Collection Requirements for SAP Cluster Debug & RCA
+title: SAP Cluster RCA
 parent: Data Collection
 ---
 

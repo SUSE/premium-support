@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Collection Requirements for PAYG Repository Issues
+title: PAYG Repository Issues
 parent: Data Collection
 ---
 

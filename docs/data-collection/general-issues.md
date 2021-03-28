@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Collection Requirements for General OS Issues
+title: General OS Issues
 parent: Data Collection
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Collection Recommendations for Network Issues
+title: Network Issues
 parent: Data Collection
 ---
 

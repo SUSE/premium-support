@@ -143,7 +143,7 @@ $(document).ready(() => {
 
   /** If the region dropdown changes */
   $('#region-dropdown').change(function() {
-    stepTwo();
+    stepOne();
   });
 
 });

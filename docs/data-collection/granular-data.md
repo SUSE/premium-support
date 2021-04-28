@@ -16,7 +16,7 @@ Install gdg (Granular Data Gatherer) and enable.
 
 2. Start logging in 30 second intervals
 
-    `sudo /usr/local/sbin/gdg --start -t 30`
+    `sudo /usr/local/sbin/gdg --start --interval 30 --logdays 7`
 
 3. Once collection has been ongoing, and data has been captured during the time of the issue, stop gdg:
 
